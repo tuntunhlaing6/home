@@ -17,7 +17,14 @@
 
         <!-- Applications -->
 
-    </modules>
+        <module>mod_buyer</module>
+        <module>mod_cashier</module>
+        <module>mod_manager</module>
+        <module>mod_products</module>
+        <module>mod_transaction</module>
+        <module>uc_cashier</module>
+        <module>uc_manager</module>
+  </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
