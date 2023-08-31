@@ -6,24 +6,23 @@
   <packaging>pom</packaging>
   
   <modules>
-        <module>mod_component</module>
 
         <!-- Domain -->
-        <module>mod_seller</module>
-
-        <!-- Use Cases -->
-        <module>uc_seller</module>
-        <module>mod_iam</module>
-
-        <!-- Applications -->
 
         <module>mod_buyer</module>
         <module>mod_cashier</module>
         <module>mod_manager</module>
         <module>mod_products</module>
         <module>mod_transaction</module>
+
+        <!-- Use Cases -->
+
         <module>uc_cashier</module>
         <module>uc_manager</module>
+
+        <!-- Applications -->
+
+
   </modules>
 
     <properties>
